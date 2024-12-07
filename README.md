@@ -7,4 +7,5 @@ Meu repositório para teste e treino de programação, rede de compuradores e el
 - AJAX Adalovelace (ajax_adalove), this project need a database file localized in "php/ajax_adalove/arquives/ajax.sql". Local "php/ajax_adalove"
 
 Por: Ngoma Fortuna
+
 By: Ngoma Fortuna
