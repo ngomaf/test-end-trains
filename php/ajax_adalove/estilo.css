@@ -1,0 +1,38 @@
+
+@font-face {font-family: "Montserrat"; src: url("arquives/Montserrat-Regular.ttf");}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 20px auto;
+    font: normal 12pt "Montserrat";
+}
+
+h1 {
+    font: normal 24pt "Montserrat";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+}
+
+#spinner span {
+    color: #666;
+    display: block;
+    margin: 20px 50px;
+}
+
+button {
+    padding: 5px 15pt;
+    font: normal 10pt "Montserrat";
+}
