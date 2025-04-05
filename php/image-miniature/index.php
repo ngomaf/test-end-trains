@@ -35,7 +35,7 @@ foreach($images as $index => $val) {
     // $arrCache[$index] = $cropper->make("images/newimg/{$val}", 300, 300);
 }
 
-// $cropper->flush();
+$cropper->flush();
 
 foreach($arrCache as $val):
 ?>
@@ -54,7 +54,7 @@ for($img = 1; $img < 5; $img++):
 
     <div>
         <!-- <img style="width: 100%;" src="images/img<?= $img ?>.jpg" alt="img<?= $img ?>.jpg"> -->
-        <img src="<?= $cropper->make("images/img{$img}.jpg", 800, 400) ?>" alt="img<?= $img ?>.jpg">     
+        <img src="<?= $cropper->make("images/img{$img}.jpg", 300, 300) ?>" alt="img<?= $img ?>.jpg">     
     </div>
 
 <?php 
@@ -62,6 +62,6 @@ endfor;
 
 
 // $cropper->flush("img1.jpg");
-// $cropper->flush();
+$cropper->flush();
 
 ?>
