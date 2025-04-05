@@ -1,0 +1,17 @@
+{
+    "name": "ngoma/image-miniature",
+    "autoload": {
+        "psr-4": {
+            "Ngoma\\ImageMiniature\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngoma M. Fortuna",
+            "email": "ngomafortuna@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/cropper": "^2.0"
+    }
+}
